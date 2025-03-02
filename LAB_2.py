@@ -85,10 +85,6 @@ def dfs_tree(tree: dict, start_node: int, end_node: int):
 
 
 
-
-
-
-
     # Initialize a list to store the traversal order
     traversal_order: list = []
     # Initialize a queue with the start node
