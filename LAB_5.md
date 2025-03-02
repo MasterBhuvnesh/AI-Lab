@@ -1,4 +1,4 @@
-# Lab 4: Hill Climbing Algorithm for Puzzle Solving
+# Lab 5: Hill Climbing Algorithm for Puzzle Solving
 
 ## Problem Statement
 

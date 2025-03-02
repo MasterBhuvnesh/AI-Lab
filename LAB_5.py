@@ -81,7 +81,7 @@ def hill_climbing(start, goal):
             move_left(current_state, goal),
             move_right(current_state, goal)
         ]
-
+        stack = [ ] 
         # Filter out None values (invalid moves)
         neighbors = [neighbor for neighbor in neighbors if neighbor is not None]
 
