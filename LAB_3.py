@@ -2,6 +2,7 @@
 
 import copy
 
+
 # Define a function for uniform cost search
 def uniform_cost_search(graph, start, goal):
     # Initialize a set to keep track of visited nodes
@@ -43,26 +44,27 @@ def uniform_cost_search(graph, start, goal):
     # If the goal is not reachable, return None
     return None, None, list(visited)
 
+
 # Define a graph with nodes and their neighbors
 graph = {
-    'S': [(1, 'A'), (12, 'G')],  # Node S has neighbors A and G with costs 1 and 12
-    'A': [(3, 'B'), (1, 'C')],  # Node A has neighbors B and C with costs 3 and 1
-    'B': [(3, 'D')],  # Node B has neighbor D with cost 3
-    'C': [(1, 'D'), (2, 'G')],  # Node C has neighbors D and G with costs 1 and 2
-    'D': [(3, 'G')],  # Node D has neighbor G with cost 3
-    'G': []  # Node G has no neighbors
+    "S": [(1, "A"), (12, "G")],  # Node S has neighbors A and G with costs 1 and 12
+    "A": [(3, "B"), (1, "C")],  # Node A has neighbors B and C with costs 3 and 1
+    "B": [(3, "D")],  # Node B has neighbor D with cost 3
+    "C": [(1, "D"), (2, "G")],  # Node C has neighbors D and G with costs 1 and 2
+    "D": [(3, "G")],  # Node D has neighbor G with cost 3
+    "G": [],  # Node G has no neighbors
 }
 
 # Perform uniform cost search on the graph from node S to node G
-path, cost, visited = uniform_cost_search(graph, 'S', 'G')
+path, cost, visited = uniform_cost_search(graph, "S", "G")
 print(f"Path: {path}")  # Print the shortest path
 print(f"Cost: {cost}")  # Print the cost of the shortest path
-print(f"Visited nodes: {visited}")  # Print the visited nodes 
+print(f"Visited nodes: {visited}")  # Print the visited nodes
 
 # OUTPUT
 
-'''
+"""
 Path: ['S', 'A', 'C', 'G']
 Cost: 4
 Visited nodes: ['S', 'A', 'C', 'B', 'D']
-'''
+"""

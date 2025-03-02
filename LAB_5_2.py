@@ -2,12 +2,14 @@
 
 import copy
 
+
 # Check if the start state is the same as the end state
 def checkGoal(start, end):
     if start == end:
         return True
     else:
         return False
+
 
 # Calculate the number of misplaced tiles between the start and end states
 def misplacedTile(start, end):
@@ -18,6 +20,7 @@ def misplacedTile(start, end):
                 misplaced += 1
     return misplaced
 
+
 # Calculate the Manhattan distance between the start and end states
 def manhattanDistance(start, end):
     distance = 0
@@ -25,8 +28,9 @@ def manhattanDistance(start, end):
         for j in range(3):
             if start[i][j] is not None:
                 l, m = find(start[i][j], end)
-                distance += abs(i-l) + abs(j-m)
+                distance += abs(i - l) + abs(j - m)
     return distance
+
 
 # Find the position of a tile in the end state
 def find(x, end):
@@ -34,7 +38,8 @@ def find(x, end):
         for j in range(3):
             if x == end[i][j]:
                 return i, j
-    return -1, -1 # Handle the case where x is not found
+    return -1, -1  # Handle the case where x is not found
+
 
 # Find the position of the blank (None) tile in the current state
 def findBlank(currState):
@@ -42,6 +47,7 @@ def findBlank(currState):
         for j in range(3):
             if currState[i][j] is None:
                 return i, j
+
 
 # Generate all possible moves from the current state
 def genMoves(currState):
@@ -51,36 +57,37 @@ def genMoves(currState):
     # Move the blank tile up
     if k > 0:
         upChild = copy.deepcopy(currState)
-        upChild[k][l] = upChild[k-1][l]
-        upChild[k-1][l] = None
+        upChild[k][l] = upChild[k - 1][l]
+        upChild[k - 1][l] = None
         states.append(upChild)
 
     # Move the blank tile down
     if k < 2:
         downChild = copy.deepcopy(currState)
-        downChild[k][l] = downChild[k+1][l]
-        downChild[k+1][l] = None
+        downChild[k][l] = downChild[k + 1][l]
+        downChild[k + 1][l] = None
         states.append(downChild)
 
     # Move the blank tile left
     if l > 0:
         leftChild = copy.deepcopy(currState)
-        leftChild[k][l] = leftChild[k][l-1]
-        leftChild[k][l-1] = None
+        leftChild[k][l] = leftChild[k][l - 1]
+        leftChild[k][l - 1] = None
         states.append(leftChild)
 
     # Move the blank tile right
     if l < 2:
         rightChild = copy.deepcopy(currState)
-        rightChild[k][l] = rightChild[k][l+1]
-        rightChild[k][l+1] = None
+        rightChild[k][l] = rightChild[k][l + 1]
+        rightChild[k][l + 1] = None
         states.append(rightChild)
 
     return states
 
+
 # Select the best child state based on the Manhattan distance heuristic
 def childSelection(states, end):
-    smallestHeur = float('inf')
+    smallestHeur = float("inf")
     bestState = states[0] if states else None
 
     for state in states:
@@ -89,6 +96,7 @@ def childSelection(states, end):
             smallestHeur = heur
             bestState = state
     return bestState
+
 
 # Perform the hill climbing algorithm to solve the puzzle
 def hillClimb(start, end, depth, iter):
@@ -112,6 +120,7 @@ def hillClimb(start, end, depth, iter):
             return -1
         return hillClimb(bestState, end, depth, iter)
 
+
 # Test cases
 
 # Case 1
@@ -132,9 +141,9 @@ start = [[1, 3, 5], [4, None, 2], [6, 7, 8]]
 end = [[1, 2, 3], [4, None, 5], [6, 7, 8]]
 hillClimb(start, end, 0, 0)
 
-#  OUTPUT 
+#  OUTPUT
 
-'''
+"""
 
 # CASE 1 :
 
@@ -189,4 +198,4 @@ Start: [[1, 2, 3], [4, None, 5], [6, 7, 8]]
 Depth: 4
 Goal reached
 
-'''
+"""

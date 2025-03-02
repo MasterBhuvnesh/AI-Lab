@@ -1,9 +1,27 @@
-# CODE - DFS 
+# CODE - DFS
+
 
 # Depth-First Search (DFS) function to traverse a tree
 def dfs_tree(tree: dict, start_node: int, end_node: int):
     # Initialize a set to keep track of visited nodes
-           visited: set = set()
+    visited: set = set()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # Initialize a list to store the traversal order
     traversal_order: list = []
     # Initialize a queue with the start node
@@ -32,6 +50,7 @@ def dfs_tree(tree: dict, start_node: int, end_node: int):
 
 # CODE DLS
 
+
 # Depth-Limited Search (DLS) function to traverse a tree
 def dls_tree(tree: dict, start_node: int, end_node: int, max_depth: int = 0):
     # Initialize a set to keep track of visited nodes
@@ -58,7 +77,13 @@ def dls_tree(tree: dict, start_node: int, end_node: int, max_depth: int = 0):
         if node == end_node:
             return visited, traversal_order
         # Add the node's children to the queue if they have not been visited and are within the maximum depth
-        queue.extend([(child, path + [child], current_depth + 1) for child in tree[node] if child not in visited])
+        queue.extend(
+            [
+                (child, path + [child], current_depth + 1)
+                for child in tree[node]
+                if child not in visited
+            ]
+        )
 
     # Return the visited nodes and the traversal order
     return visited, traversal_order
@@ -101,7 +126,7 @@ if __name__ == "__main__":
 
 # DFS Output
 
-'''
+"""
 DFS Traversal:
 node 1 visited
 node 3 visited
@@ -109,11 +134,11 @@ node 7 visited
 node 6 visited
 DFS Traversal Order: [1, 3, 7, 6]
 Visited Order: [1, 3, 7, 6]
-'''
+"""
 
 # DLS Output (Example with `max_depth = 2`)
 
-'''
+"""
 DLS Traversal:
 Enter the Maximum Depth for the tree: 2
 node 1 visited
@@ -124,4 +149,4 @@ node 2 visited
 node 5 visited
 DLS Traversal Order: [1, 3, 7, 6, 2, 5]
 Visited Order: {1, 2, 3, 5, 6, 7}
-'''
+"""

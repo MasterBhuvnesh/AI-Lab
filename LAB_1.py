@@ -1,6 +1,7 @@
-# CODE 
+# CODE
 
-def func(jug1_capacity :int , jug2_capacity : int, target : int) -> int:
+
+def func(jug1_capacity: int, jug2_capacity: int, target: int) -> int:
     # Initialize variables to track the current state of the jugs
     jug1 = 0
     jug2 = 0
@@ -49,9 +50,9 @@ result = func(jug1_capacity, jug2_capacity, target)
 for step in result:
     print(step)
 
-# OUTPUT 
+# OUTPUT
 
-'''
+"""
 Fill Jug 1: (4, 0)
 Pour Jug 1 -> Jug 2: (1, 3)
 Empty Jug 2: (1, 0)
@@ -59,4 +60,4 @@ Pour Jug 1 -> Jug 2: (0, 1)
 Fill Jug 1: (4, 1)
 Pour Jug 1 -> Jug 2: (2, 3)
 Target reached: (2, 3)
-'''
+"""
