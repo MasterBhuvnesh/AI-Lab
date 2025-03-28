@@ -5,7 +5,6 @@ def func(jug1_capacity: int, jug2_capacity: int, target: int) -> int:
     # Initialize variables to track the current state of the jugs
     jug1 = 0
     jug2 = 0
-
     # Store the sequence of steps to reach the target
     steps = []
 
