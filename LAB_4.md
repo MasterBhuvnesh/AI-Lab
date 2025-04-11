@@ -198,3 +198,5 @@ The heuristic function `heuristic(n)` provides an estimate of the cost from node
 - The `open_set` and `closed_set` help manage which nodes to explore and which have already been explored.
 
 This implementation of A\* Search efficiently finds the shortest path from `A` to `G` in the given graph.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_4.ipynb)

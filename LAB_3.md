@@ -158,3 +158,5 @@ The graph is represented as a dictionary where each key is a node, and the value
 - The visited nodes are tracked to avoid revisiting nodes unnecessarily.
 
 This implementation of UCS efficiently finds the shortest path from `S` to `G` in the given graph.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_3.ipynb)

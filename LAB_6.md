@@ -170,3 +170,5 @@ The optimal value is 2
 - The optimal value represents the best possible outcome for the player, assuming the opponent plays optimally.
 
 This implementation of the Minimax algorithm successfully computes the optimal value for the given game tree.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_6.ipynb)

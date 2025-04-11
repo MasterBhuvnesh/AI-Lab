@@ -103,3 +103,5 @@ Target reached: (2, 3)
 7. **Target reached**: The target of 2 liters in Jug 1 is achieved.
 
 This sequence of steps successfully measures exactly 2 liters of water in Jug 1.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_1.ipynb)

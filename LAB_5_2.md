@@ -274,3 +274,5 @@ The heuristic function `misplacedTile(start, end)` calculates the number of misp
 - The heuristic function plays a crucial role in guiding the search towards the goal state.
 
 This implementation of the Hill Climbing algorithm efficiently solves the sliding puzzle problem by minimizing the number of misplaced tiles at each step.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_5.ipynb)

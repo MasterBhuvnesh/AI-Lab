@@ -182,3 +182,5 @@ The assigned colour for T is: Red
 - The choice of domain (colors) and the order of assignment can impact the efficiency and outcome of the algorithm.
 
 This implementation successfully solves the graph coloring problem for the given map of Australian regions using a simple constraint satisfaction approach.
+
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_7.ipynb)

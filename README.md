@@ -33,5 +33,5 @@
 <div align="center">
     <img src="https://img.shields.io/badge/Google%20Colab-000000?style=for-the-badge&logo=googlecolab&logoColor=F9AB00" alt="Google Colab Badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Conda" />
+  <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
 </div>
