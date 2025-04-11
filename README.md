@@ -29,3 +29,9 @@
 | Lab 8 | 07-04-2025 | Prolog Designing    |
 
 ---
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Colab-000000?style=for-the-badge&logo=google-colab&logoColor=F9AB00"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white"/>
+</div>
