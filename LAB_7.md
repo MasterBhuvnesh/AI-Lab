@@ -183,4 +183,4 @@ The assigned colour for T is: Red
 
 This implementation successfully solves the graph coloring problem for the given map of Australian regions using a simple constraint satisfaction approach.
 
-[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_7.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/LAB_7.ipynb)

@@ -184,4 +184,4 @@ Visited Order: {1, 2, 3, 5, 6, 7}
 
 Both algorithms successfully traverse the tree and find the target node while adhering to their respective constraints. The `main()` function organizes the execution of both DFS and DLS, making the code modular and easy to use.
 
-[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_2.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/LAB_2.ipynb)

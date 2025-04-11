@@ -199,4 +199,4 @@ The heuristic function `heuristic(n)` provides an estimate of the cost from node
 
 This implementation of A\* Search efficiently finds the shortest path from `A` to `G` in the given graph.
 
-[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/Lab_4.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Open%20in%20Colab-%23000000?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/MasterBhuvnesh/AI-Lab/blob/main/labs/LAB_4.ipynb)
