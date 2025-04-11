@@ -1,5 +1,9 @@
 # Lab 2: Depth-First Search (DFS) and Depth-Limited Search (DLS)
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 20/01/2025 |
+
 ## Problem Statement
 
 The Depth-First Search (DFS) and Depth-Limited Search (DLS) algorithms are fundamental graph traversal techniques used in computer science. The goal is to explore a graph or tree structure by visiting nodes in a systematic manner.
@@ -14,12 +18,15 @@ Given a tree structure and a target node, the task is to traverse the tree using
 ## Algorithm
 
 ### Depth-First Search (DFS)
+
 1. **Initialize**:
+
    - A set to keep track of visited nodes.
    - A list to store the traversal order.
    - A stack (implemented as a list) to manage the nodes to be explored.
 
 2. **Loop until the stack is empty**:
+
    - Pop a node from the stack.
    - If the node is not visited:
      - Mark it as visited.
@@ -29,12 +36,15 @@ Given a tree structure and a target node, the task is to traverse the tree using
 3. **Return** the visited nodes and traversal order.
 
 ### Depth-Limited Search (DLS)
+
 1. **Initialize**:
+
    - A set to keep track of visited nodes.
    - A list to store the traversal order.
    - A stack (implemented as a list) to manage the nodes to be explored, along with their current depth.
 
 2. **Loop until the stack is empty**:
+
    - Pop a node, its path, and its current depth from the stack.
    - If the current depth exceeds the maximum depth, skip the node.
    - If the node is not visited:
@@ -124,6 +134,7 @@ if __name__ == "__main__":
 ## Output
 
 ### DFS Output
+
 ```
 DFS Traversal:
 node 1 visited
@@ -135,6 +146,7 @@ Visited Order: [1, 3, 7, 6]
 ```
 
 ### DLS Output (Example with `max_depth = 2`)
+
 ```
 DLS Traversal:
 Enter the Maximum Depth for the tree: 2
@@ -153,6 +165,7 @@ Visited Order: {1, 2, 3, 5, 6, 7}
 ## Explanation
 
 ### DFS Explanation
+
 1. **Start at Node 1**: Mark it as visited and add it to the traversal order.
 2. **Explore Node 3**: Since DFS prioritizes deeper exploration, Node 3 is visited next.
 3. **Explore Node 7**: Node 7 is visited as it is a child of Node 3.
@@ -160,6 +173,7 @@ Visited Order: {1, 2, 3, 5, 6, 7}
 5. **Target Node 6 is found**: The traversal stops.
 
 ### DLS Explanation (with `max_depth = 2`)
+
 1. **Start at Node 1**: Mark it as visited and add it to the traversal order.
 2. **Explore Node 3**: Node 3 is visited as it is within the depth limit.
 3. **Explore Node 7**: Node 7 is visited as it is within the depth limit.

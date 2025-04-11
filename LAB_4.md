@@ -1,5 +1,9 @@
 # Lab 4: A\* Search Algorithm
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 03/01/2025 |
+
 ## Problem Statement
 
 A\* Search is an informed search algorithm used to find the shortest path between a start node and a goal node in a weighted graph. It combines the advantages of Uniform Cost Search (UCS) and Greedy Best-First Search by using both the actual cost from the start node and a heuristic estimate of the cost to the goal node. The algorithm prioritizes nodes that minimize the total cost `f(n) = g(n) + h(n)`, where `g(n)` is the cost from the start node to node `n`, and `h(n)` is the heuristic estimate of the cost from node `n` to the goal.

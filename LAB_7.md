@@ -1,5 +1,9 @@
 # Lab 7: Graph Coloring Using Constraint Satisfaction
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 24/03/2025 |
+
 ## Problem Statement
 
 Graph coloring is a classic problem in computer science where the goal is to assign colors to the vertices of a graph such that no two adjacent vertices share the same color. In this lab, we apply a constraint satisfaction approach to solve the graph coloring problem for a map of Australian regions. Each region is represented as a node, and edges represent adjacency between regions. The objective is to assign colors to each region such that no two neighboring regions have the same color.

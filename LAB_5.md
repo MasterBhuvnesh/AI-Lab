@@ -1,5 +1,9 @@
 # Lab 5: Hill Climbing Algorithm for Puzzle Solving
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 10/02/2025 |
+
 ## Problem Statement
 
 Hill Climbing is a local search algorithm used to find an optimal solution by iteratively improving the current state. In this lab, we apply the Hill Climbing algorithm to solve a sliding puzzle problem. The puzzle consists of a 3x3 grid with one empty tile (represented by `None`). The goal is to rearrange the tiles from the initial state to the goal state by sliding the empty tile in one of the four possible directions (up, down, left, or right).

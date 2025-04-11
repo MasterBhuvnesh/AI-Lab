@@ -1,5 +1,9 @@
 # Lab 6: Minimax Algorithm for Decision Making in Game Trees
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 24/02/2025 |
+
 ## Problem Statement
 
 The Minimax algorithm is a decision-making algorithm used in two-player games, such as chess or tic-tac-toe, to determine the optimal move for a player. The algorithm assumes that the opponent is also playing optimally. It recursively evaluates all possible moves and chooses the move that maximizes the player's advantage while minimizing the opponent's advantage. In this lab, we implement the Minimax algorithm to find the optimal value in a game tree represented by a list of scores at the leaf nodes.

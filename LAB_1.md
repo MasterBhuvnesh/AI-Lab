@@ -1,5 +1,9 @@
 # Lab 1: Water Jug Problem
 
+| **Name**       | **Section** | **Roll No.** | **Branch** | **Lab** | **Date**   |
+| -------------- | ----------- | ------------ | ---------- | ------- | ---------- |
+| Bhuvnesh Verma | A           | 28           | AIML       | AI LAB  | 13/01/2025 |
+
 ## Problem Statement
 
 The Water Jug Problem is a classic problem in artificial intelligence and computer science. The problem involves two jugs of different capacities and the goal is to measure a specific amount of water using these jugs. The operations allowed are:
@@ -15,10 +19,12 @@ Given the capacities of the two jugs and a target amount of water, the task is t
 The algorithm used to solve the Water Jug Problem in the provided code is as follows:
 
 1. **Initialize**:
+
    - Set both jugs to be empty.
    - Create an empty list to store the sequence of steps.
 
 2. **Loop until the target is reached**:
+
    - **Fill Jug 1** if it is empty.
    - **Pour water from Jug 1 to Jug 2** until Jug 2 is full or Jug 1 is empty.
    - **Empty Jug 2** if it is full.
