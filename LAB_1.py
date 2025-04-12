@@ -14,7 +14,6 @@ def func(jug1_capacity: int, jug2_capacity: int, target: int) -> int:
         if jug1 == 0:
             jug1 = jug1_capacity
 
-
             steps.append(f"Fill Jug 1: ({jug1}, {jug2})")
 
         # Pour from jug1 to jug2 if jug2 is not full
