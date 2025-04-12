@@ -37,12 +37,6 @@ def find(x, end):
     for i in range(3):
         for j in range(3):
 
-
-
-
-
-
-            
             if x == end[i][j]:
                 return i, j
     return -1, -1  # Handle the case where x is not found
