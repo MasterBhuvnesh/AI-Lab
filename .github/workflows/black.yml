@@ -27,7 +27,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "👀"
+          git config --global user.name "Github Actions"
           git config --global user.email "Github.github.com"
           git add .
           git commit -m "cooked it 👾" || echo "nothing to do ✌️"

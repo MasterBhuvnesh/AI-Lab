@@ -18,6 +18,7 @@ def dfs_tree(tree: dict, start_node: int, end_node: int):
         # If the node has not been visited, mark it as visited and add it to the traversal order
         if node not in visited:
             visited.add(node)
+            
             traversal_order.append(node)
             # Print a message to indicate that the node has been visited
             print(f"node {node} visited")
